@@ -171,3 +171,28 @@ body {
     margin-top: 10px;
     color: var(--gray-color)
 }
+
+@media all and (max-width: 640px) {
+    .todo-app {
+        height:  100vh;
+        border-radius: 0;
+        max-width: 100%;
+    }
+
+    .todo-app main {
+        height: calc(100vh - 111px);
+    }
+
+    .todo-app h1 {
+        font-size: 24px;
+    }
+
+    .todo-app h2 {
+        font-size: 16px;
+    }
+
+    .todo-app button[type="submit"] {
+        padding: 10px;
+    }
+ 
+}
